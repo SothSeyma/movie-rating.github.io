@@ -1,8 +1,8 @@
 .movie-card {
     display: flex;
     flex-direction: column;
-    width: 240px;
-    height: 400px;
+    width: 220px;
+    height: 370px;
     margin: 10px;
     border: 1px solid #ccc;
    
@@ -34,7 +34,7 @@
   @media (max-width: 700px) {
     .movie-card {
       width: 100px;
-      height: 370px;
+      height: 300px;
     }
     .movie-card h2 {
       font-size: 14px;
@@ -46,8 +46,8 @@
   
   @media (max-width: 480px) {
     .movie-card {
-      width: 80px;
-      height: 300px;
+      width: 50px;
+      height: 50px;
     }
     .movie-card h2 {
       font-size: 12px;

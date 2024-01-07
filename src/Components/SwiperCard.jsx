@@ -29,10 +29,10 @@ function SwiperCard() {
         breakpoints={{
             1200: { slidesPerView: 5 },
             1000: { slidesPerView: 4 },
-            700: { slidesPerView: 2 },
-            500: { slidesPerView: 1 },
-            400: { slidesPerView: 1 },
-            300: { slidesPerView: 1 },
+            700: { slidesPerView: 3 },
+            500: { slidesPerView: 3 },
+            400: { slidesPerView: 3 },
+            300: { slidesPerView: 3 },
           }}
       >
         {movies.slice(0,10).map((movie) => (

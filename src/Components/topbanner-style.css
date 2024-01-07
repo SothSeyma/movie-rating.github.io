@@ -1,0 +1,89 @@
+/* CSS for Carousel */
+.slider {
+    width: 80%; /* Set the width of the Carousel container */
+    margin: auto; /* Center the Carousel */
+    
+  }
+  
+  /* CSS for card */
+  .card {
+    display: flex; /* Use flexbox for card layout */
+    border: 1px solid #ccc; /* Optional: Add border for card */
+    /* background-color: rgb(243, 224, 201); */
+    border-radius: 12px; /* Optional: Add border-radius for card */
+    overflow: hidden; /* Hide overflowing content within the card */
+    margin: 0 auto; /* Center the card within the Carousel.Item */
+  }
+  
+  /* CSS for card image */
+  .card-img{
+    width: 25%; /* Set the width of the image within the card */
+    height: 400px; /* Maintain the aspect ratio */
+    /* object-fit: cover; Maintain aspect ratio while covering the container */
+    border-radius: 10px;
+  }
+  
+  /* CSS for card body (text) */
+  .card-body {
+    padding: 20px; /* Adjust padding as needed */
+    flex: 1; /* Allow the text to take up remaining space in the card */
+  }
+  .card-body h5 {
+    font-weight: 800;
+    font-size: 28px;
+  }
+  .card-body p {
+    font-size: 24px;
+  }
+  
+  /* Optional: CSS for card title and text */
+  .card-title {
+    margin-top: 0; /* Remove default margin for title */
+  }
+  
+  .card-text {
+    margin-bottom: 0; /* Remove default margin for text */
+  }
+  .poster-trailer-banner iframe{
+    width: 60%;
+    height: 400px;
+    border-radius: 10px;
+
+  }
+.poster-trailer-banner{
+    display: flex;
+    padding: 20px 20px 0 20px;
+    justify-content: space-between;
+}
+@media(max-width:1000px){
+
+  .slider {
+    width: 90%; /* Set the width of the Carousel container */
+  }
+  .card-img{
+    width: 40%; /* Set the width of the image within the card */
+    height: 190px; /* Maintain the aspect ratio */
+    
+  }
+  .card-body {
+    padding: 10px; /* Adjust padding as needed */
+    flex: 1; /* Allow the text to take up remaining space in the card */
+  }
+  .poster-trailer-banner iframe{
+    width: 55%;
+    height: 180px;
+    border-radius: 10px;
+
+  }.poster-trailer-banner{
+    
+    padding: 10px;
+    
+}
+.card-body h5 {
+  font-weight: 800;
+  font-size: 20px;
+}
+.card-body p {
+  font-size: 16px;
+}
+}

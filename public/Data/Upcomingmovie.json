@@ -1,0 +1,19 @@
+
+[
+    {
+      "id": 1,
+      "name": "La La Land",
+      "image": "/Data/movieposter/lalaland.jpg",    
+      "genre": "Musical",
+      "releaseDate": "25-12-2023"
+    },
+    {
+        "id": 2,
+        "name": "Night Swim",
+        "image": "/Data/movieposter/lalaland.jpg",    
+        "genre": "Horror , Thriller",
+        "releaseDate": "05-01-2024"
+      }
+  
+
+  ]

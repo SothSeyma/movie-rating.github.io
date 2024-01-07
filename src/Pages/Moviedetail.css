@@ -1,0 +1,168 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.page-wrapper{
+    padding-top: 5rem;
+    height: 250vh;
+    width: 80%;
+    
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.rating{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.rating h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.rating-under{
+    display: flex;
+    
+}
+.rating-under h2{
+    padding: 0px 20px;
+    font-size: 25px;
+}
+.box-genre {
+  display: flex;
+}
+.tittle h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px  3px;
+    padding: 5px 10px; 
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.poster-trailer{
+    display: flex;
+
+    justify-content: space-between;
+}
+.detail{
+    width: 100%;
+}
+.detail p{
+    width: 70%;
+}
+.detail h1{
+    font-weight: 700;
+}
+
+.detail hr{
+    height: 4px; 
+    border: none; 
+    background-color: black;
+    margin: 0;
+    width: 90%;
+}
+.inf{
+    display: flex;
+    margin-top: 20px;
+}
+.inf h2{
+    font-size: 26px;
+    margin: 0 0 0 0;
+    font-weight: 900;
+}
+.inf p{
+    font-size: 22px;
+    margin: 0 0 0 0;
+    padding-left: 20px;
+    font-weight: 600;
+
+}
+.trailer-mangement{
+    margin:  30px 0 0 0;
+    font-weight: bold;
+}
+.trailer-mangement h1{
+    font-weight: bold;
+}
+.trailer-cards{
+    display: flex;
+    margin: 20px;
+}
+.trailer-cards iframe{
+    margin: 10px;
+    border-radius: 10px;
+}
+@media (max-width: 1200px) {
+    .trailer-right iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media (max-width: 900px) {
+    .trailer-right iframe{
+        width: 250px;
+        height: 200px;
+    }
+}
+@media (max-width: 600px) {
+    .tittle h1{
+        font-size: 20px;
+    }
+    .box {
+        margin: 1px  3px;
+        padding: 2px 4px; 
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+    .rating h1{
+        font-size: 20px;
+    }
+    .rating-under{
+        display: block;
+    }
+    .rating-under h2{
+        padding: 0px 15px;
+        font-size: 15px;
+    }
+    .trailer-right iframe{
+        width: 180px;
+        height: 150px;
+    }
+    .page-wrapper{
+        padding-top: 5rem;
+        height: 200vh;
+        width: 90%;
+        
+        
+    }
+    .detail h1{
+        font-size: 24px;
+    }
+    .detail p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .detail h2{
+        font-size: 20px;
+    }
+    .trailer-cards{
+        
+        margin: 0px;
+    }
+    .trailer-cards iframe{
+        margin: 3px;
+        border-radius: 10px;
+        width: 150px;
+        height: 100px;
+    }
+}

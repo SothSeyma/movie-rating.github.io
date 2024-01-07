@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+.page-wrapper {
+    width: 80%;
+    margin: 0 auto; /* This centers the component */
+    font-family: 'Poppins', sans-serif;
+    
+
+  }
+.page-wrapper-home{
+  padding-top: 2rem;
+  height: 250vh;
+}

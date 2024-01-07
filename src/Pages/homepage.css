@@ -1,0 +1,11 @@
+.swiper-movie{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title h1{font-size: 30px;font-weight: 800;}
+.title h2{font-size: 20px;}

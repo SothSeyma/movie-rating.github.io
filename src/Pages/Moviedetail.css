@@ -2,7 +2,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .page-wrapper{
-    padding-top: 5rem;
+    padding-top: 3rem;
     height: 250vh;
     width: 80%;
     
@@ -38,6 +38,10 @@
 .tittle h1{
     font-size: 30px;
     font-weight: bold;
+}
+.tittle h3{
+    font-size: 20px;
+    padding: 5px;
 }
 .box {
     display: flex;
@@ -117,6 +121,9 @@
 @media (max-width: 600px) {
     .tittle h1{
         font-size: 20px;
+    }
+    .tittle h3{
+        font-size: 15px;
     }
     .box {
         margin: 1px  3px;

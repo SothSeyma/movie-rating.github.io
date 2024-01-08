@@ -19,7 +19,7 @@ const MovieFilter = ({ onFilterChange }) => {
   return (
     <div>
       <label>
-        Sort Order:
+        
         <select value={sortOrder} onChange={handleSortOrderChange}>
           <option value="asc">Oldest to Newest</option>
           <option value="desc">Newest to Oldest</option>

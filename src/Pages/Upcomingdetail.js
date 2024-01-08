@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import '../App.css';
 import  './Moviedetail.css';
-function MovieDetail() {
+import Countdown from '../Components/Countdown';
+function Upcomingdetail() {
   const { id } = useParams();
   const [movie, setMovie] = React.useState(null);
   const [mainImage, setMainImage] = useState('');
@@ -13,7 +14,7 @@ function MovieDetail() {
   
 
   React.useEffect(() => {
-    fetch('/Data/MovieData.json')
+    fetch('/Data/Upcomingmovie.json')
       .then((response) => response.json())
       .then((data) => {
         const selectedMovie = data.find((movie) => movie.id === parseInt(id, 10));
@@ -56,14 +57,14 @@ function MovieDetail() {
             </div>
           )}
               </div>
-        
+            <h3><span style={{marginRight:'4px'}}>ReleasDate:</span>{movie.releaseDate}</h3>
         </div>`
         <div className="right-top">
           <div className="rating">
-            <h1>Rating</h1>
+            <h1>Release In</h1>
             <div className="rating-under">
-              <h2>Global:{movie.rating}</h2>
-              <h2>User:</h2>
+              <h2><Countdown releaseDate={movie.releaseDate} /></h2>
+              
             </div>
           </div>
           
@@ -178,4 +179,4 @@ function MovieDetail() {
   );
 }
 
-export default MovieDetail;
+export default Upcomingdetail;

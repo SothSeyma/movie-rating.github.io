@@ -9,6 +9,7 @@
       "genre": "Animation,Action",
       "iframeUrl":["https://www.youtube.com/embed/shW9i6k8cB0?si=OYLjUw6VOqOedg8X"],
       "releaseDate": "02-Jun-2023",
+      "rating": "8.5/10",
       "director": "Peter Ramsey, Rodney Rothman, Rodney Rothman",
       "writer": "Phil Lord, Rodney Rothman",
       "cast": "Shameik Moore, Jake Johnson, Hailee Steinfeld"
@@ -22,6 +23,7 @@
       "genre": "Action,Crime",
       "iframeUrl": ["https://www.youtube.com/embed/qEVUtrk8_B4?si=io7ueohJujRuDjRL","https://www.youtube.com/embed/yjRHZEUamCc?si=6xYFHOhWCQjqoTj6","https://www.youtube.com/embed/yjRHZEUamCc?si=6xYFHOhWCQjqoTj6"],
       "releaseDate": "24-Mar-2023",
+      "rating": "9.0/10",
       "director": "Chad Stahelski",
       "writer": "Derek Kolstad",
       "cast": "Keanu Reeves, Halle Berry, Ian McShane"
@@ -34,10 +36,12 @@
         "image2": "https://www.movieposters.com/cdn/shop/products/3f110b97df39b483537401d91a63e330_76580aad-ccc8-4727-8b92-fb88f15db9e8_480x.progressive.jpg?v=1573653900",
         "image3": "https://media-cache.cinematerial.com/p/500x/tsumoawx/mad-max-fury-road-movie-poster.jpg?v=1456440927",
         "releaseDate": "15-May-2015",
+        "rating": "8.1/10",
         "iframeUrl": ["https://www.youtube.com/embed/YWNWi-ZWL3c"],
         "director": "George Miller",
         "writer": "George Miller, Brendan McCarthy, Nico Lathouris",
         "cast": "Tom Hardy, Charlize Theron, Nicholas Hoult"
+        
       },
       {
         "id": 4,
@@ -50,7 +54,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/LoebZZ8K5N0"],
         "director": "Alejandro G. Iñárritu",
         "writer": "Mark L. Smith, Alejandro G. Iñárritu",
-        "cast": "Leonardo DiCaprio, Tom Hardy, Domhnall Gleeson"
+        "cast": "Leonardo DiCaprio, Tom Hardy, Domhnall Gleeson",
+        "rating": "8.0/10"
       },
       {
         "id": 5,
@@ -60,10 +65,11 @@
         "image2": "",
         "image3": "",
         "releaseDate": "22-Dec-2023",
-        "iframeUrl": [""],
+        "iframeUrl": ["https://www.youtube.com/embed/UGc5Tzz19UY?si=Nw7KnhA-IdUzhSeD"],
         "director": "",
         "writer": "",
-        "cast": ""
+        "cast": "",
+        "rating": ""
       },
       {
         "id": 6,
@@ -73,7 +79,7 @@
         "image2": "",
         "image3": "",
         "releaseDate": "21-Jul-2023",
-        "iframeUrl": [""],
+        "iframeUrl": ["https://www.youtube.com/embed/uYPbbksJxIg?si=fiUcT29mjEqyPZmt"],
         "director": "",
         "writer": "",
         "cast": ""
@@ -89,7 +95,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/sRfnevzM9kQ"],
         "director": "Jordan Peele",
         "writer": "Jordan Peele",
-        "cast": "Daniel Kaluuya, Allison Williams, Bradley Whitford"
+        "cast": "Daniel Kaluuya, Allison Williams, Bradley Whitford",
+        "rating": "7.7/10"
       },
       {
         "id": 8,
@@ -102,7 +109,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/gCcx85zbxz4"],
         "director": "Denis Villeneuve",
         "writer": "Hampton Fancher, Michael Green",
-        "cast": "Ryan Gosling, Harrison Ford, Ana de Armas"
+        "cast": "Ryan Gosling, Harrison Ford, Ana de Armas",
+        "rating": "8.0/10"
       },
       {
         "id": 9,
@@ -115,7 +123,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/xjDjIWPwcPU"],
         "director": "Ryan Coogler",
         "writer": "Ryan Coogler, Joe Robert Cole",
-        "cast": "Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o"
+        "cast": "Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o",
+        "rating": "7.3/10"
       },
       {
         "id": 10,
@@ -125,7 +134,7 @@
         "image2": "",
         "image3": "",
         "releaseDate": "31-Mar-2023",
-        "iframeUrl": [""],
+        "iframeUrl": ["https://www.youtube.com/embed/IiMinixSXII?si=BbGHgJICtKsniFNQ"],
         "director": "",
         "writer": "",
         "cast": ""
@@ -141,7 +150,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/5xH0HfJHsaY"],
         "director": "Bong Joon-ho",
         "writer": "Bong Joon-ho, Han Jin-won",
-        "cast": "Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo"
+        "cast": "Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo",
+        "rating": "8.6/10"
       },
       {
         "id": 12,
@@ -154,12 +164,13 @@
         "iframeUrl": ["https://www.youtube.com/embed/t433PEQGErc"],
         "director": "Todd Phillips",
         "writer": "Todd Phillips, Scott Silver",
-        "cast": "Joaquin Phoenix, Robert De Niro, Zazie Beetz"
+        "cast": "Joaquin Phoenix, Robert De Niro, Zazie Beetz",
+        "rating": "8.4/10"
       },
       {
         "id": 13,
         "name": "1917",
-        "genre": "War",
+        "genre": "War,Action",
         "image": "",
         "image2": "",
         "image3": "",
@@ -167,7 +178,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/YqNYrYUiMfg"],
         "director": "Sam Mendes",
         "writer": "Sam Mendes, Krysty Wilson-Cairns",
-        "cast": "Dean-Charles Chapman, George MacKay, Daniel Mays"
+        "cast": "Dean-Charles Chapman, George MacKay, Daniel Mays",
+        "rating": "8.3/10"
       },
       {
         "id": 14,
@@ -180,7 +192,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/6sxCFZ8_d84"],
         "director": "Chloé Zhao",
         "writer": "Chloé Zhao",
-        "cast": "Frances McDormand, David Strathairn, Linda May"
+        "cast": "Frances McDormand, David Strathairn, Linda May",
+        "rating": "7.3/10"
       },
       {
         "id": 15,
@@ -193,7 +206,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/xOsLIiBStEs"],
         "director": "Pete Docter, Kemp Powers",
         "writer": "Pete Docter, Mike Jones",
-        "cast": "Jamie Foxx, Tina Fey, Graham Norton"
+        "cast": "Jamie Foxx, Tina Fey, Graham Norton",
+        "rating": "8.1/10"
       },
       {
         "id": 16,
@@ -206,7 +220,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/L3pk_TBkihU"],
         "director": "Christopher Nolan",
         "writer": "Christopher Nolan",
-        "cast": "John David Washington, Robert Pattinson, Elizabeth Debicki"
+        "cast": "John David Washington, Robert Pattinson, Elizabeth Debicki",
+        "rating": "7.4/10"
       },
       {
         "id": 17,
@@ -219,7 +234,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/KQ0gFidlro8"],
         "director": "Lee Isaac Chung",
         "writer": "Lee Isaac Chung",
-        "cast": "Steven Yeun, Yeri Han, Alan S. Kim"
+        "cast": "Steven Yeun, Yeri Han, Alan S. Kim",
+        "rating": "7.6/10"
       },
       {
         "id": 18,
@@ -232,7 +248,8 @@
         "iframeUrl": ["https://www.youtube.com/embed/VFOrGkAvjAE"],
         "director": "Darius Marder",
         "writer": "Darius Marder, Abraham Marder",
-        "cast": "Riz Ahmed, Olivia Cooke, Paul Raci"
+        "cast": "Riz Ahmed, Olivia Cooke, Paul Raci",
+        "rating": "7.8/10"
       },
       {
         "id": 19,
@@ -245,12 +262,13 @@
         "iframeUrl": ["https://www.youtube.com/embed/FVb6EdKDBfU"],
         "director": "Aaron Sorkin",
         "writer": "Aaron Sorkin",
-        "cast": "Eddie Redmayne, Sacha Baron Cohen, Mark Rylance"
+        "cast": "Eddie Redmayne, Sacha Baron Cohen, Mark Rylance",
+        "rating": "7.8/10"
       },
       {
         "id": 20,
         "name": "Mank",
-        "genre": "Biography",
+        "genre": "Biography,History",
         "image": "",
         "image2": "",
         "image3": "",
@@ -258,6 +276,7 @@
         "iframeUrl": ["https://www.youtube.com/embed/aSfX-nrg-lI"],
         "director": "David Fincher",
         "writer": "Jack Fincher",
-        "cast": "Gary Oldman, Amanda Seyfried, Lily Collins"
+        "cast": "Gary Oldman, Amanda Seyfried, Lily Collins",
+        "rating": ""
       }
   ]

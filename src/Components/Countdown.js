@@ -36,7 +36,7 @@ function Countdown({ releaseDate }) {
 
   return (
     <div>
-      <p>Time until release:</p>
+      
       <p>{timeRemaining.days}D, {timeRemaining.hours}h, {timeRemaining.minutes}min, {timeRemaining.seconds}s</p>
     </div>
   );

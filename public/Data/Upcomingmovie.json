@@ -2,17 +2,114 @@
 [
     {
       "id": 1,
-      "name": "La La Land",
-      "image": "/Data/movieposter/lalaland.jpg",    
-      "genre": "Musical",
-      "releaseDate": "25-12-2023"
+      "name": "Dune: Part Two",
+      "image": "https://www.themoviedb.org/t/p/original/cBDoFHJVcZqAonkTyhN9sMEggi5.jpg", 
+      "image2": "https://www.themoviedb.org/t/p/original/ujKCtZbzkeDhZkvnDolIjZ6wcqJ.jpg",
+      "image3": "https://www.themoviedb.org/t/p/original/gcA3FDXpcagrjwAreRGSivWYGFG.jpg",   
+      "genre": "Sci-Fi, Adventure",
+      "iframeUrl":["https://www.youtube.com/embed/Way9Dexny3w?si=Lpqcss52Ww1t9K_u","https://www.youtube.com/embed/_YUzQa_1RCE?si=Eywmh4VP78GkyNFK","https://www.youtube.com/embed/U2Qp5pL3ovA?si=Bfmj0OPEd9FRZ2gc"],
+      "releaseDate": "01-03-2024" 
     },
     {
         "id": 2,
-        "name": "Night Swim",
-        "image": "/Data/movieposter/lalaland.jpg",    
-        "genre": "Horror , Thriller",
-        "releaseDate": "05-01-2024"
+        "name": "The Settlers Movie",
+        "image": "https://s.movieinsider.com/images/p/600//753728_m1702062111.jpg",    
+        "iframeUrl":["https://www.youtube.com/embed/rdy--tzaUeo?si=9fzO8P5Re0NIukQd"],
+        "genre": "Action, Adventure",
+        "releaseDate": "12-01-2024"
+      },
+      {
+        "id": 3,
+        "name": "The Beekeeper",
+        "image": "https://th.bing.com/th/id/OIP.CdLdfv7KF3H1P0WwskvNSAHaK9?rs=1&pid=ImgDetMain",
+        "iframeUrl":["https://www.youtube.com/embed/1ZjUN258fDE?si=chnjl1iqiWx_CMMe"],
+        "genre": "Action, Thriller",
+        "releaseDate": "12-01-2024"
+      },
+      {
+        "id": 4,
+        "name": "John Wick: Chapter 5",
+        "image": "https://hmv.com/r/w-1640/HMV/files/e6/e62478b9-af30-4168-ab1a-43922609c437.jpg",
+        "genre": "Action, Thriller",
+        "releaseDate": "22-03-2024"
+      },
+      {
+        "id": 5,
+        "name": "Avatar 3",
+        "image": "https://posterspy.com/wp-content/uploads/2022/01/Avatar-The-Way-Of-Water.jpg",
+        "genre": "Sci-Fi, Adventure",
+        "releaseDate": "20-12-2024"
+      },
+      {
+        "id": 6,
+        "name": "Mission: Impossible - Dead Reckoning Part Two",
+        "image": "https://assets.gadgets360cdn.com/pricee/assets/product/202208/Mission_Impossible_Dead_Reckoning_Part_Two_poster_1659437825.jpeg",
+        "genre": "Action, Adventure",
+        "releaseDate": "28-06-2024"
+      },
+      {
+        "id": 7,
+        "name": "Creed III",
+        "image": "https://th.bing.com/th/id/OIP.zBbtwgvjhAp1zNoaoM9fFQAAAA?rs=1&pid=ImgDetMain",
+        "genre": "Action, Drama",
+        "releaseDate": "03-03-2024"
+      },
+      {
+        "id": 8,
+        "name": "Kung Fu Panda 4",
+        "image": "https://assets.mycast.io/posters/kung-fu-panda-4-fan-casting-poster-109649-large.jpg?1623993226",
+        "iframeUrl":["https://www.youtube.com/embed/_inKs4eeHiI?si=wRSGdvGZganE7i8L"],
+        "genre": "Animation, Action",
+        "releaseDate": "08-03-2024"
+      },
+      {
+        "id": 9,
+        "name": "Ghostbusters: Frozen Empire",
+        "image": "https://i.pinimg.com/originals/f9/96/b4/f996b4201fbeeed68be3eb4bee27ab15.png",
+        "genre": "Action, Comedy",
+        "releaseDate": "29-03-2024"
+      },
+      {
+        "id": 10,
+        "name": "Rayman's Big Movie",
+        "image": "",
+        "genre": "Animation, Adventure",
+        "releaseDate": "26-04-2024"
+      },
+      {
+        "id": 11,
+        "name": "Imaginary",
+        "image": "",
+        "genre": "Horror",
+        "releaseDate": "08-06-2024"
+      },
+      {
+        "id": 12,
+        "name": "Bob Marley: One Love",
+        "image": "",
+        "genre": "Biography, Drama",
+        "releaseDate": "14-02-2024"
+      },
+      {
+        "id": 13,
+        "name": "Despicable Me 4",
+        "image": "",
+        "genre": "Animation, Comedy",
+        "releaseDate": "03-07-2024"
+      },
+      {
+        "id": 14,
+        "name": "Madame Web",
+        "image": "",
+        "genre": "Action, Adventure",
+        "releaseDate": "14-02-2024"
+      },
+      {
+        "id": 15,
+        "name": "The Ark and the Aardvark",
+        "image": "",
+        "genre": "Animation, Adventure",
+        "releaseDate": "13-12-2024"
       }
   
 

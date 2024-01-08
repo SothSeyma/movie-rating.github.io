@@ -4,10 +4,14 @@
     width: 120px;
     height: 200px;
     margin: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid   #ccc;
    
     overflow: hidden;
     border-radius: 20px;
+    
+  }
+  .card-movie:hover {
+    transform: scale(1.1); /* You can adjust the scale factor as needed */
   }
   
   .movie-card img {
@@ -20,7 +24,7 @@
   .movie-card h2{
     font-size: 18px;
     font-weight: 800;
-    color: blue;
+    
   }
   .movie-card h2{
     padding: 10px 10px 0 10px;
@@ -57,3 +61,76 @@
       font-size: 10px;
     }
   }
+
+
+  .card-movie{
+    width: 240px;
+    height: 380px;
+    
+  }
+  .card-movie img{
+    height: 240px;
+  }
+  .card-show{
+    padding: 10px;
+  }
+  .card-img-top img{
+    height: 100px;
+  }
+  .card-title h1{
+    font-size: 20px;
+    font-weight: 800;  }
+    .card-text p{
+      font-size: 16px;
+    font-weight: 500;
+    }
+    .p-span{
+      font-weight: 700;
+      padding-right: 5px;
+    }
+    @media (max-width: 1200px) {
+
+      .card-movie{
+        width: 220px;
+        height: 320px;
+      }
+      .card-movie img{
+        height: 200px;
+      }
+      .card-title h1{
+        font-size: 18px;
+        font-weight: 800;  }
+        .card-text p{
+          font-size: 15px;
+        font-weight: 500;
+        }
+        .card-show{
+          padding: 5px;
+        }
+        
+    }
+
+    @media (max-width: 500px) {
+
+      .card-movie{
+        width: 130px;
+        height: 320px;
+      }
+      .card-movie img{
+        height: 130px;
+      }
+      .card-title h1{
+        font-size: 14px;
+        font-weight: 800;  }
+        .card-text p{
+          font-size: 13px;
+        font-weight: 500;
+        }
+        .card-show{
+          padding: 5px;
+        }
+        .p-span{
+          
+          margin-right: 5px;
+        }
+    }

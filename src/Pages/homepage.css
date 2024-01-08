@@ -9,10 +9,12 @@
 }
 .title h1{font-size: 30px;font-weight: 800;}
 .title h2{font-size: 20px;}
-
+.swiper-card-show{
+    margin-top: 1rem;
+}
     @media (max-width: 700px) {
     .swiper-movie{
-        width: 90%;
+        width: 95%;
      }
      .title h1{
         font-size: 20px;font-weight: 800;

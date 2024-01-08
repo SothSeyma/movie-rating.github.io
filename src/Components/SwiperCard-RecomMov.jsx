@@ -6,18 +6,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import './SwiperCard-style.css';
 
-function SwiperCard() {
+function SwiperCardRecomMov() {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
     fetch('/Data/Moviedata.json')
       .then((response) => response.json())
       .then((data) => {
-        // Sort movies by releaseDate in descending order
-        const sortedMovies = data.sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate));
-        // Take the first 10 movies
-        const latestMovies = sortedMovies.slice(0, 10);
-        setMovies(latestMovies);
+        // Sort movies by rating in descending order
+        const sortedMovies = data.sort((a, b) => b.rating - a.rating);
+        // Set only the top 10 movies
+        setMovies(sortedMovies.slice(0, 10));
       })
       .catch((error) => console.error('Error fetching data:', error));
   }, []);
@@ -41,7 +40,11 @@ function SwiperCard() {
         <SwiperSlide key={movie.id}>
           <Link to={`/moviedetail/${movie.id}`} style={{ textDecoration: 'none' }}>
             <Card className='card-movie'>
-              <img variant="top" src={movie.image} alt={movie.name} />
+              <img
+                variant="top"
+                src={movie.image} // Assuming `movie.image` already includes the base URL
+                alt={movie.name}
+              />
               <div className='card-show'>
                 <div className='card-title'>
                   <h1>{movie.name}</h1>
@@ -62,4 +65,4 @@ function SwiperCard() {
   );
 }
 
-export default SwiperCard;
+export default SwiperCardRecomMov;

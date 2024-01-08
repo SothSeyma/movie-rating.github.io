@@ -23,8 +23,8 @@ const MovieGenreFilter = ({ genres, onFilterChange }) => {
   return (
 
     
-    <Dropdown>
-      <Dropdown.Toggle variant="secondary" id="genreDropdown">
+    <Dropdown >
+      <Dropdown.Toggle variant="secondary" id="genreDropdown" style={{padding:'5px',margin:'0',backgroundColor:'#484A4E'}} >
         Filter by Genre
       </Dropdown.Toggle>
       <Dropdown.Menu>
